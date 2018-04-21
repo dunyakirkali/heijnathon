@@ -57,22 +57,26 @@
 
 ## Checksum
 
-08|09|00|09|04|08 = 38 => Even
-90|00|80|10|70|90 = 34 => Odd
+- 08|09|00|09|04|08 = 38 => Even
+- 90|00|80|10|70|90 = 34 => Odd
 
+```
 38 * 3 = 114 => Even * 3
 114 + 34 = 148 => (Even * 3) + Odd
 148 % 10 = 8
 10 - 8 = 2
+```
 
 ## Theory
 
 According to [this](https://www.barcoding.com/blog/barcode-prefixes-and-product-country-of-origin/) article,
 980 is for *refund receipts*
 
-prediction:
+## Prediction:
+
 980***19*****
 
+## Playground
 
 2018 - 19 - 19
 2017 - 18 - 18
